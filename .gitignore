@@ -10,3 +10,4 @@ subprojects/stdexec.wrap
 
 *.sw*
 tags
+compile_commands.json
