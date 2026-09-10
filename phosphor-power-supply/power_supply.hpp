@@ -729,7 +729,7 @@ class PowerSupply
      *
      * @return max_power_out value converted from string.
      */
-    auto getMaxPowerOut() const;
+    double getMaxPowerOut() const;
 
     /**
      * @brief Reads a VPD value from PMBus, correct size, and contents.

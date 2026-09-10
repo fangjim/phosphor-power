@@ -1046,11 +1046,11 @@ void PowerSupply::updateInventory()
     }
 }
 
-auto PowerSupply::getMaxPowerOut() const
+double PowerSupply::getMaxPowerOut() const
 {
     using namespace phosphor::pmbus;
 
-    auto maxPowerOut = 0;
+    double maxPowerOut = 0.0;
 
     if (present)
     {
